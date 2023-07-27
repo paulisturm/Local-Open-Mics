@@ -1,17 +1,30 @@
 {
+<<<<<<< HEAD
   "name": "server",
+=======
+  "name": "mern-server",
+>>>>>>> 432c8c45 (package lock)
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
+<<<<<<< HEAD
     "start": "nodemon --watch server server/server.js",
     "seed": "node seeds/seed.js",
     "watch": "nodemon server.js"
   },
+=======
+    "start": "node server.js",
+    "watch": "nodemon",
+    "seed": "node config/seeds.js"
+  },
+  "keywords": [],
+>>>>>>> 432c8c45 (package lock)
   "author": "",
   "license": "ISC",
   "dependencies": {
     "apollo-server-express": "^3.6.2",
+<<<<<<< HEAD
     "express": "^4.17.2",
     "graphql": "^16.3.0",
     "mongoose": "^7.0.2"
@@ -20,3 +33,16 @@
     "nodemon": "^2.0.22"
   }
 }
+=======
+    "bcrypt": "^4.0.1",
+    "express": "^4.17.2",
+    "graphql": "^16.3.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^7.0.2",
+    "stripe": "^8.67.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
+>>>>>>> 432c8c45 (package lock)

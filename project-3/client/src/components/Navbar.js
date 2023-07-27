@@ -11,13 +11,13 @@ const Navbar = ({setCurrentPage}) => {
     <div className="collapse navbar-collapse" id="navbarNav">
       <ul className="navbar-nav">
         <li className="nav-item">
-          <a className="nav-link active" aria-current="page" href="#" onClick={() => setCurrentPage('About')}>NEW MICS</a>
+          <a className="nav-link active" aria-current="page" href="#" onClick={() => setCurrentPage('Mics')}>MICS</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#" onClick={() => setCurrentPage('')}>FRIENDS</a>
+          <a className="nav-link" href="#" onClick={() => setCurrentPage('')}>FAVORITES</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#" onClick={() => setCurrentPage('Contact') }>LOG IN</a>
+          <a className="nav-link" href="#" onClick={() => setCurrentPage('Login') }>LOG IN</a>
         </li>
         
       </ul>
