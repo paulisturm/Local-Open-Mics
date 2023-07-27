@@ -1,6 +1,7 @@
 import {useState} from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
+import Welcome from './components/Welcome';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -18,6 +19,7 @@ function App() {
       (<Contact />) :
       (<Resume />)
       } */}
+      <Welcome></Welcome>
    </div>
   );
 }
