@@ -14,7 +14,7 @@ const Navbar = ({setCurrentPage}) => {
           <a className="nav-link active" aria-current="page" href="#" onClick={() => setCurrentPage('Mics')}>MICS</a>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#" onClick={() => setCurrentPage('')}>FAVORITES</a>
+          <a className="nav-link" href="#" onClick={() => setCurrentPage('Favories')}>FAVORITES</a>
         </li>
         <li className="nav-item">
           <a className="nav-link" href="#" onClick={() => setCurrentPage('Login') }>LOG IN</a>
