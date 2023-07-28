@@ -5,6 +5,7 @@ import Mics from './components/Mics';
 import Login from './components/Login';
 import Favorites from './components/Favorites';
 import Welcome from './components/Welcome'
+import Footer from './components/Footer';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -22,6 +23,7 @@ function App() {
       (<Favorites />) :
       (<Welcome />)
       }
+      <Footer/>
    </div>
   );
 }
