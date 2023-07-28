@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  
+}
+
+body {
+  background-color: rgb(89, 135, 162);
 }
 
 .App-logo {
@@ -38,5 +43,5 @@
 }
 
 .Login {
-  background-color: blue;
+  margin-top: 100px;
 }
