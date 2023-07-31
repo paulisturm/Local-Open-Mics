@@ -6,9 +6,10 @@ import Login from './components/Login';
 import Favorites from './components/Favorites';
 import Welcome from './components/Welcome'
 import Footer from './components/Footer';
+import Image from './assets/Mic.webp'
 
 function App() {
-  const [currentPage, setCurrentPage] = useState('About');
+  const [currentPage, setCurrentPage] = useState('Welcome');
 
 
   return (
@@ -20,9 +21,10 @@ function App() {
         <Mics /> 
       ) : currentPage === 'Login' ?
       (<Login />) : currentPage === 'Favorites' ?
-      (<Favorites />) :
-      (<Welcome />)
+      (<Favorites />) : 
+      (<Welcome />) 
       }
+      <div style={{ backgroundImage:`url(${Image})`,backgroundRepeat:"no-repeat" }}></div>
       <Footer/>
    </div>
   );
