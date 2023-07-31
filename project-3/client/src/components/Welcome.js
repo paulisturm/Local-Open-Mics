@@ -1,11 +1,10 @@
 import React from 'react'
+import Image from '../assets/Mic.webp'
 
 const Welcome = ({setCurrentPage}) => {
   return (
-    <div style={{ 
-        backgroundImage: `../../assets/OPEN-MIC.webp`
-      }}>
-        </div>
+    <img src={Image}></img>
+        
   )
 }
 
