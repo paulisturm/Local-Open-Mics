@@ -1,5 +1,5 @@
-# Project 3 Cleveland Open Mics
-## Send out your thoughts!
+## Project 3 Cleveland Open Mics
+# Send out your thoughts!
 
 Created by Paul Sturm, Dan Kopac, Seth Andregg, and Jacob Andrew
 
