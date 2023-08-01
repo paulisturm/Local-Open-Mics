@@ -25,7 +25,7 @@ function App() {
       (<Welcome />) 
       }
       <div style={{ backgroundImage:`url(${Image})`,backgroundRepeat:"no-repeat" }}></div>
-      <Footer/>
+      <Footer></Footer>
    </div>
   );
 }
