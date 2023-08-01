@@ -5,7 +5,7 @@ Created by Paul Sturm, Dan Kopac, Seth Andregg, and Jacob Andrew
 
 ____________
 
-This fullstack MERN app lets users to register an account and login and send our messages/thoughts .This fullstack MERN app allows a group to create a trip and add it to both the user's and all the guests' calendars, update the details of a trip, and delete a trip. So it Creates, Reads, Updates, and Deletes the data from the Mongo database. The app was created with Mongo, Express, React, and Node.
+This fullstack MERN app lets users to register an account and login and send our messages/thoughts. The app was created with Mongo, Express, React, and Node.
 Cleveland Open Mics is deployed on Heroku. See the links below.
 
 - - - -
