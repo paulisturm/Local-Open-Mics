@@ -1,7 +1,7 @@
 ### Project 3 
 # Cleveland Open Mics
 
-Created by Paul Sturm, Dan Kopac, Seth Andregg, and Jacob Andrew
+Created by Paul Sturm, Dan Kopac, Seth Andregg, & Jacob Andrew
 
 ____________
 
