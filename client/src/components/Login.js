@@ -23,6 +23,9 @@ function Login () {
                 <div class="col-md-6 login-form-2">
                     <h3>Register</h3>
                     <form>
+                    <div class="form-group ">
+                            <input type="text" class="form-control" placeholder="Your Username *" value="" />
+                        </div>
                         <div class="form-group ">
                             <input type="text" class="form-control" placeholder="Your Email *" value="" />
                         </div>
