@@ -10,7 +10,8 @@ const Register = () => {
   const [ username, setUsername] = useState('');
   const [ email, setEmail] = useState('');
   const [ password, setPassword] = useState('');
- 
+  // set state for form validation
+  const [validated] = useState(false);
   // set state for alert
   const [showAlert, setShowAlert] = useState(false);
 
@@ -22,13 +23,25 @@ console.log(error)
     event.preventDefault();
     
     
+
+    //check if form has everything (as per react-bootstrap docs)
+    // const form = event.currentTarget;
+    // if (form.checkValidity() === false) {
+    //   event.preventDefault();
+    //   event.stopPropagation();
+    // }
+
     try {
       const { data } = await addUser({
         variables: { email, username, password },
         
       });
       console.log(data);
-     
+      // setUserFormData({
+      //   username: '',
+      //   email: '',
+      //   password: '',
+      // });
       setEmail("")
       setPassword("")
       setUsername("")
@@ -44,7 +57,7 @@ console.log(error)
   };
 
   return (
-    <div className="register">
+    <>
       {/* This is needed for the validation functionality above */}
       <Form onSubmit={handleFormSubmit}>
         {/* show alert if server response is bad */}
@@ -97,7 +110,7 @@ console.log(error)
           Submit
         </Button>
       </Form>
-    </div>
+    </>
   );
 };
 
