@@ -4,7 +4,7 @@ import Footer from './Footer'
 
 const Welcome = ({setCurrentPage}) => {
   return (
-    <><img src={Image}></img><div>
+    <><img src={Image} alt="mic picture"></img><div>
       <Footer />
     </div></>
   )

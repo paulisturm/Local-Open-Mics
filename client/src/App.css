@@ -44,4 +44,10 @@ body {
 
 .Login {
   margin-top: 100px;
+  flex-wrap: 400px;
 }
+
+.register {
+  margin-top: 100px;
+}
+

@@ -7,12 +7,41 @@ import Favorites from './components/Favorites';
 import Welcome from './components/Welcome'
 import Register from './components/Register';
 import Image from './assets/Mic.webp'
+import {
+  ApolloClient,
+  InMemoryCache,
+  ApolloProvider,
+  createHttpLink,
+} from '@apollo/client';
+import { setContext } from '@apollo/client/link/context';
 
 function App() {
   const [currentPage, setCurrentPage] = useState('Welcome');
 
+  const httpLink = createHttpLink({
+    uri: '/graphql',
+  });
+  
+  const authLink = setContext((_, { headers }) => {
+    // get the authentication token from local storage if it exists
+    const token = localStorage.getItem('id_token');
+    // return the headers to the context so httpLink can read them
+    return {
+      headers: {
+        ...headers,
+        authorization: token ? `Bearer ${token}` : '',
+      },
+    };
+  });
+  
+  const client = new ApolloClient({
+    // Set up our client to execute the `authLink` middleware prior to making the request to our GraphQL API
+    link: authLink.concat(httpLink),
+    cache: new InMemoryCache(),
+  });
 
   return (
+    <ApolloProvider client={client}>
    <div className="App">
      <Navbar
         setCurrentPage={setCurrentPage}
@@ -27,6 +56,7 @@ function App() {
       }
       <div style={{ backgroundImage:`url(${Image})`,backgroundRepeat:"no-repeat" }}></div>
    </div>
+   </ApolloProvider>
   );
 }
 
