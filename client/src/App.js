@@ -6,6 +6,7 @@ import Login from './components/Login';
 import Favorites from './components/Favorites';
 import Welcome from './components/Welcome'
 import Footer from './components/Footer';
+import Register from './components/Register';
 import Image from './assets/Mic.webp'
 
 function App() {
@@ -21,8 +22,9 @@ function App() {
         <Mics /> 
       ) : currentPage === 'Login' ?
       (<Login />) : currentPage === 'Favorites' ?
-      (<Favorites />) : 
-      (<Welcome />) 
+      (<Favorites />) : currentPage === 'Welcome' ?
+      (<Welcome />) :
+      (<Register />)
       }
       <div style={{ backgroundImage:`url(${Image})`,backgroundRepeat:"no-repeat" }}></div>
       <Footer/>
