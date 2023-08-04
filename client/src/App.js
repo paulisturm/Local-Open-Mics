@@ -5,7 +5,6 @@ import Mics from './components/Mics';
 import Login from './components/Login';
 import Favorites from './components/Favorites';
 import Welcome from './components/Welcome'
-import Footer from './components/Footer';
 import Image from './assets/Mic.webp'
 
 function App() {
@@ -25,7 +24,6 @@ function App() {
       (<Welcome />) 
       }
       <div style={{ backgroundImage:`url(${Image})`,backgroundRepeat:"no-repeat" }}></div>
-      <Footer/>
    </div>
   );
 }
