@@ -22,6 +22,9 @@ const Navbar = ({setCurrentPage}) => {
         <li className="nav-item">
           <a className="nav-link" href="#" onClick={() => setCurrentPage('Login') }>LOG IN</a>
         </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#" onClick={() => setCurrentPage('Register') }>REGISTER</a>
+        </li>
         
       </ul>
     </div>

@@ -44,4 +44,10 @@ body {
 
 .Login {
   margin-top: 100px;
+  margin-left: 50%;
+}
+
+.Register {
+  margin-top: 100px;
+  margin-left: 50%;
 }
