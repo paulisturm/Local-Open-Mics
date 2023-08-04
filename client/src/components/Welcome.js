@@ -6,7 +6,9 @@ const Welcome = ({setCurrentPage}) => {
   return (
     <>
     <img src={Image}></img>
-    <Footer> </Footer>
+    <div>
+  <Footer />
+  </div>
     </>
         
   )

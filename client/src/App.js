@@ -5,9 +5,7 @@ import Mics from './components/Mics';
 import Login from './components/Login';
 import Favorites from './components/Favorites';
 import Welcome from './components/Welcome'
-import Footer from './components/Footer';
 import Register from './components/Register';
-import Image from './assets/Mic.webp'
 
 function App() {
   const [currentPage, setCurrentPage] = useState('Welcome');
@@ -26,7 +24,7 @@ function App() {
       (<Welcome />) :
       (<Register />)
       }
-      <div style={{ backgroundImage:`url(${Image})`,backgroundRepeat:"no-repeat" }}></div>
+
    </div>
   );
 }
