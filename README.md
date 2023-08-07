@@ -34,7 +34,6 @@ Visit the Heroku link above.
 
 ![Home Page]()
 
-Click on the "Login" button in the nav bar and go to the register form to set up an account. Enter a email and password (at least 6 characters), and confirm the password. Then click "Register". If you already have registered then click on "Log In" button in the navbar and in the form enter your email and password. 
 
 ![Register/Login Form]()
 
