@@ -37,13 +37,15 @@ ____________
 # Screenshots of our application
 
 ![Home Page]()
+![Screen Shot 2023-08-07 at 6 08 42 PM](https://github.com/paulisturm/Local-Open-Mics/assets/122826902/b48e8058-442e-4495-b493-535099ffa424)
+
 
 
 ![Register/Login Form]()
-
+![Screen Shot 2023-08-07 at 6 08 54 PM](https://github.com/paulisturm/Local-Open-Mics/assets/122826902/dc112be7-86f7-48cc-9fdb-438ede0bfba9)
 
 ![Favorites Page]()
-
+![Screen Shot 2023-08-07 at 6 09 02 PM](https://github.com/paulisturm/Local-Open-Mics/assets/122826902/4c7445c6-ec40-4324-8cf1-fad51dab3a09)
 ____________
 
 # # How You Can Get Started With This Project Using This Repo
