@@ -50,6 +50,8 @@ Before running the server.js file using node.js, run "npm install" to download a
 
 Then run the script "npm start" at the command line to begin the server, and then navigate to localhost:3000 in your browser to see the HTML home page and proceed from there.
 
+____________
+
 # Why the Project is Useful
 
 Content Sharing:
@@ -57,6 +59,8 @@ Users can easily share various types of content, including text, images, videos,
 
 Personal Branding:
 Users can curate their profiles to reflect their personalities, skills, and achievements. This serves as a digital portfolio that can be used for personal branding and showcasing expertise.
+
+____________
 
 # Who Maintains and Contributes to the Project
 
