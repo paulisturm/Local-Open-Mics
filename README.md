@@ -32,6 +32,10 @@ ____________
 
 Visit the Heroku link above. 
 
+____________
+
+# Screenshots of our application
+
 ![Home Page]()
 
 
