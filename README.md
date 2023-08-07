@@ -8,6 +8,12 @@ ____________
 This fullstack MERN app lets users to register an account and login and send our messages/thoughts. The app was created with Mongo, Express, React, and Node.
 Cleveland Open Mics is deployed on Heroku. See the links below.
 
+____________
+
+User Story: As a socially active individual seeking a more engaging and meaningful online experience, I want to use the ‘Cleveland Open Mics’ social media app to connect with friends, discover new interests, and share my life in a more authentic and positive manner.
+ 
+
+
 - - - -
 Heroku-deployed app: 
 
@@ -35,17 +41,13 @@ To begin from our project folder, first clone the GitHub repository. You will ne
 
 * Node
 
-* And these dependencies:
-
-    * 
-
 Before running the server.js file using node.js, run "npm install" to download and install the dependencies defined in the package.json. 
 
 Then run the script "npm start" at the command line to begin the server, and then navigate to localhost:3000 in your browser to see the HTML home page and proceed from there.
 
 ### Why the Project is Useful ### 
 
-    * 
+    *
 
 ### Who Maintains and Contributes to the Project ###
 
