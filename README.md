@@ -26,7 +26,7 @@ GitHub repository: https://github.com/paulisturm/project-3/tree/main
 
 ____________
 
-# How You Can Get Started With This Project Using Heroku
+ How You Can Get Started With This Project Using Heroku
 
 <strong>To use the app:</strong> 
 
