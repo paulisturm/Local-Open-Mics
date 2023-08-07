@@ -40,7 +40,7 @@ Visit the Heroku link above.
 
 ![Favorites Page]()
 
-*****************************************************
+____________
 
 To begin from our project folder, first clone the GitHub repository. You will need to have installed:
 
