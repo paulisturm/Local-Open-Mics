@@ -6,22 +6,25 @@ Created by Paul Sturm, Dan Kopac, Seth Andregg, & Jacob Andrew
 ____________
 
 # Description 
+
 This fullstack MERN app lets users to register an account and login and send our messages/thoughts. The app was created with Mongo, Express, React, and Node.
 Cleveland Open Mics is deployed on Heroku. See the links below.
 
 ____________
 
 # User Story
+
 As a socially active individual seeking a more engaging and meaningful online experience, I want to use the ‘Cleveland Open Mics’ social media app to connect with friends, discover new interests, and share my life in a more authentic and positive manner.
  
+____________
 
-
-- - - -
 # Links
+
 Heroku-deployed app: 
 
 GitHub repository: https://github.com/paulisturm/project-3/tree/main
-- - - -
+
+____________
 
 ### How You Can Get Started With This Project ###
 
