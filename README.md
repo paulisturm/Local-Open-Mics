@@ -10,7 +10,8 @@ Cleveland Open Mics is deployed on Heroku. See the links below.
 
 ____________
 
-User Story: As a socially active individual seeking a more engaging and meaningful online experience, I want to use the ‘Cleveland Open Mics’ social media app to connect with friends, discover new interests, and share my life in a more authentic and positive manner.
+# User Story
+As a socially active individual seeking a more engaging and meaningful online experience, I want to use the ‘Cleveland Open Mics’ social media app to connect with friends, discover new interests, and share my life in a more authentic and positive manner.
  
 
 
