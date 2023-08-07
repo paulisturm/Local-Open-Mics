@@ -20,7 +20,7 @@ ____________
 
 # Links
 
-Heroku-deployed app: 
+Heroku-deployed app: https://local-open-mics-3af6ed455b4c.herokuapp.com/
 
 GitHub repository: https://github.com/paulisturm/project-3/tree/main
 
