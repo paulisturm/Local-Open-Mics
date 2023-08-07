@@ -58,10 +58,7 @@ Users can easily share various types of content, including text, images, videos,
 Personal Branding:
 Users can curate their profiles to reflect their personalities, skills, and achievements. This serves as a digital portfolio that can be used for personal branding and showcasing expertise.
 
-### Who Maintains and Contributes to the Project ###
+# Who Maintains and Contributes to the Project
 
   The contributors Paul Sturm, Dan Kopac, Seth Andregg, & Jacob Andrew
 
-### Where Users Can Get Help with This Project ###
-
-  Questions? Contact 
