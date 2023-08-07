@@ -26,7 +26,7 @@ GitHub repository: https://github.com/paulisturm/project-3/tree/main
 
 ____________
 
-# How You Can Get Started With This Project ###
+# How You Can Get Started With This Project Using Heroku
 
 <strong>To use the app:</strong> 
 
@@ -45,6 +45,8 @@ ____________
 ![Favorites Page]()
 
 ____________
+
+# # How You Can Get Started With This Project Using This Repo
 
 To begin from our project folder, first clone the GitHub repository. You will need to have installed:
 
